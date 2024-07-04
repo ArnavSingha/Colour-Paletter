@@ -1,0 +1,172 @@
+{
+  "app": {
+    "title": "Explore",
+    "description": "All-in-one color tool for creator and developer."
+  },
+  "palettes": {
+    "title": "My Paletters",
+    "description": "All-in-one color tool for creator and developer.",
+    "search": "Search",
+    "not-found": { "label": "No palettes", "create": "Create a palette" },
+    "create": {
+      "title": "Create a palette",
+      "placeholder": "Palette name",
+      "submit": "Create",
+      "cancel": "Cancel"
+    },
+    "rename": {
+      "title": "Rename",
+      "placeholder": "Palette name",
+      "submit": "Rename",
+      "cancel": "Cancel"
+    },
+    "delete": {
+      "submit": "Delete",
+      "description": "Are you sure you want to delete this palette?",
+      "cancel": "Cancel"
+    }
+  },
+  "ai-palettes": {
+    "title": "AI Paletters",
+    "description": "All-in-one color tool for creator and developer."
+  },
+  "ui-checker": {
+    "title": "UI Checker",
+    "description": "All-in-one color tool for creator and developer."
+  },
+  "palette": {
+    "description": "All-in-one color tool for creator and developer.",
+    "create": "Add a color",
+    "redo": "Redo",
+    "undo": "Undo",
+    "export": "Export",
+    "rename": "Rename",
+    "delete": "Delete",
+    "light": "Light",
+    "dark": "Dark",
+    "apply": {
+      "light": "Apply to Light",
+      "dark": "Apply to Dark"
+    },
+    "edit": {
+      "submit": "Apply"
+    },
+    "tab": {
+      "palettes": "Palettes",
+      "blindness": "Blindness",
+      "tones": "Tones",
+      "shades": "Shades",
+      "tints": "Tints"
+    }
+  },
+  "generators": {
+    "back": "Back to color",
+    "title": "Generators",
+    "description": "All-in-one color tool for creator and developer.",
+    "shades": "Shades",
+    "tints": "Tints",
+    "tones": "Tones",
+    "alternatives": "Alternatives",
+    "hues": "Hues"
+  },
+  "contrast-checker": {
+    "back": "Back to color",
+    "title": "Contrast Checker",
+    "description": "All-in-one color tool for creator and developer.",
+    "foreground": "Foreground",
+    "background": "Background",
+    "invert": "Invert colors"
+  },
+  "history": {
+    "title": "History",
+    "description": "All-in-one color tool for creator and developer."
+  },
+  "categories": {
+    "title": "Categories",
+    "description": "All-in-one color tool for creator and developer."
+  },
+  "colors": {
+    "description": "All-in-one color tool for creator and developer.",
+    "shades": {
+      "title": "Shades",
+      "description": "{label} + {base}",
+      "more": "See All"
+    },
+    "tints": {
+      "title": "Tints",
+      "description": "{label} + {base}",
+      "more": "See All"
+    },
+    "tones": {
+      "title": "Tones",
+      "description": "Tones of {label}",
+      "more": "See All"
+    },
+    "color-blindness": {
+      "title": "Color Blindness",
+      "original": "Original",
+      "protanopia": "Protanopia",
+      "deuteranopia": "Deuteranopia",
+      "tritanopia": "Tritanopia",
+      "achromatopsia": "Achromatopsia"
+    },
+    "contrast": {
+      "title": "Contrast",
+      "more": "See Contrast Checker"
+    },
+    "complementary": {
+      "title": "Complementary",
+      "description": "180° apart from the hue"
+    },
+    "alternatives": {
+      "title": "Alternatives",
+      "description": "Alternatives to {label}",
+      "more": "See on Generator"
+    },
+    "hues": {
+      "title": "Hues",
+      "description": "36° apart from each",
+      "more": "See on Generator"
+    },
+    "triadic": {
+      "title": "Triadic",
+      "description": "120° apart from each"
+    },
+    "square": {
+      "title": "Square",
+      "description": "90° apart from each"
+    },
+    "split-complementary": {
+      "title": "Split Complementary",
+      "description": "+150° and -150° apart from the hue"
+    }
+  },
+  "not-found": {
+    "title": "404: Not found",
+    "description": "Page not found",
+    "heading": "404 | Page Not Found",
+    "message": "You just hit a route that doesn't exist... the sadness.😢",
+    "back-to-app": "Back to App"
+  },
+  "component": {
+    "category": {
+      "label": "CATEGORY",
+      "more": "See All"
+    },
+    "color-search": {
+      "submit": "Apply"
+    },
+    "export-modal": {
+      "title": "Export"
+    },
+    "palette-menu": {
+      "tooltip": "Save to palette",
+      "title": "Save to",
+      "not-found": "No palettes",
+      "create": "Create"
+    },
+    "footer": {
+      "description": "Built by `Arnav Singha`" 
+    }
+  }
+}
