@@ -44,7 +44,7 @@ export const Footer = memo(
                 href={
                   index === 1
                     ? CONSTANT.SNS.GITHUB.ARNAV_SINGHA
-                    : CONSTANT.SNS.GITHUB.YAMADA_COLORS + "/graphs/contributors"
+                    : CONSTANT.SNS.GITHUB.ARNAV_SINGHA + "/graphs/contributors"
                 }
                 target="_blank"
               >
