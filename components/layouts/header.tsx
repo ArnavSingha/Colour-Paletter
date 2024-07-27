@@ -41,15 +41,13 @@ import { memo, useEffect, useRef, useState } from "react"
 import { SearchColor } from "components/form"
 import {
   Color,
-  Discord,
-  Github,
   Hamburger,
   MagnifyingGlass,
   Moon,
   Sun,
   Translate,
 } from "components/media-and-icons"
-import { NextLinkIconButton, Tree } from "components/navigation"
+import { Tree } from "components/navigation"
 import { CONSTANT } from "constant"
 import { useApp } from "contexts/app-context"
 import { useI18n } from "contexts/i18n-context"
@@ -296,51 +294,51 @@ const I18nButton: FC<I18nButtonProps> = memo(({ menuProps, ...rest }) => {
   const padding = useBreakpointValue({ base: 32, md: 16 })
   const { locale, changeLocale } = useI18n()
 
-  // return (
-  //   <Menu
-  //     placement="bottom"
-  //     modifiers={[
-  //       {
-  //         name: "preventOverflow",
-  //         options: {
-  //           padding: {
-  //             top: padding,
-  //             bottom: padding,
-  //             left: padding,
-  //             right: padding,
-  //           },
-  //         },
-  //       },
-  //     ]}
-  //     restoreFocus={false}
-  //     {...menuProps}
-  //   >
-  //     <MenuButton
-  //       as={IconButton}
-  //       aria-label="Open language switching menu"
-  //       isRounded
-  //       variant="ghost"
-  //       color="muted"
-  //       icon={<Translate />}
-  //       _hover={{ bg: [`blackAlpha.100`, `whiteAlpha.50`] }}
-  //       {...rest}
-  //     />
+  return (
+    <Menu
+      placement="bottom"
+      modifiers={[
+        {
+          name: "preventOverflow",
+          options: {
+            padding: {
+              top: padding,
+              bottom: padding,
+              left: padding,
+              right: padding,
+            },
+          },
+        },
+      ]}
+      restoreFocus={false}
+      {...menuProps}
+    >
+      <MenuButton
+        as={IconButton}
+        aria-label="Open language switching menu"
+        isRounded
+        variant="ghost"
+        color="muted"
+        icon={<Translate />}
+        _hover={{ bg: [`blackAlpha.100`, `whiteAlpha.50`] }}
+        {...rest}
+      />
 
-  //     <MenuList>
-  //       <MenuOptionGroup<string>
-  //         value={locale}
-  //         onChange={changeLocale}
-  //         type="radio"
-  //       >
-  //         {CONSTANT.I18N.LOCALES.map(({ label, value }) => (
-  //           <MenuOptionItem key={value} value={value} closeOnSelect>
-  //             {label}
-  //           </MenuOptionItem>
-  //         ))}
-  //       </MenuOptionGroup>
-  //     </MenuList>
-  //   </Menu>
-  // )
+      <MenuList>
+        <MenuOptionGroup<string>
+          value={locale}
+          onChange={changeLocale}
+          type="radio"
+        >
+          {CONSTANT.I18N.LOCALES.map(({ label, value }) => (
+            <MenuOptionItem key={value} value={value} closeOnSelect>
+              {label}
+            </MenuOptionItem>
+          ))}
+        </MenuOptionGroup>
+      </MenuList>
+    </Menu>
+  )
 })
 
 I18nButton.displayName = "I18nButton"

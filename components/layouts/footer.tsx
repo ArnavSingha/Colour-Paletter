@@ -8,7 +8,7 @@ import {
   forwardRef,
 } from "@yamada-ui/react"
 import { memo } from "react"
-import { Github, X } from "components/media-and-icons"
+import { Github } from "components/media-and-icons"
 import { CONSTANT } from "constant"
 import { useI18n } from "contexts/i18n-context"
 
