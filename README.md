@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="" alt="Colour Paletter" width="480" />
-  <img src="" alt="Colour Paletter" width="480" />
+  <img src="./logo/logomark-white.svg" alt="Colour Paletter" width="200" />
 </p>
 
 <p align='center'>
-  English | <a href='./README.ja.md'></a>
+  English | Jap <a href='./README.ja.md'></a>
 </p>
 
 <p align='center'>
