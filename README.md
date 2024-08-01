@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo/logomark-white.svg" alt="Colour Paletter" width="200" />
+  <img src="./logo/favicon.svg" alt="Colour Paletter" width="200" />
 </p>
 
 <p align='center'>
