@@ -18,7 +18,7 @@
 
 ## Support
 
-Please support this project with you or your organization. Your logo will appear here with a link to your website. We'll appreciate some support.
+Please support this project with you or your organization. Your logo will appear here with a link to your website. I'll appreciate some support.
 
 
 ### Individuals
