@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./logo/favicon.svg" alt="Colour Paletter" width="480" />
+  <img src="" alt="Colour Paletter" width="480" />
   <img src="" alt="Colour Paletter" width="480" />
 </p>
 
 <p align='center'>
-  English | Jap<a href='./README.ja.md'></a>
+  English | <a href='./README.ja.md'></a>
 </p>
 
 <p align='center'>
