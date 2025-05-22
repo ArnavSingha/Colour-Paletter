@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo/logomark-white.svg" alt="Colour Paletter" width="200" />
+  <img src="./logo/favicon.svg" alt="Colour Paletter" width="200" />
 </p>
 
 <p align='center'>
@@ -18,7 +18,7 @@
 
 ## Support
 
-Please support this project with you or your organization. Your logo will appear here with a link to your website. We'll appreciate some support.
+Please support this project with you or your organization. Your logo will appear here with a link to your website. I'll appreciate some support.
 
 
 ### Individuals
